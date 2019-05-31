@@ -48,23 +48,19 @@ class CustomObjectResponse {
 
         @Expose
         @SerializedName("id")
-        val id: String? = null
-
-        @Expose
-        @SerializedName("customObject_url")
-        val customObjectUrl: String? = null
-
-        @Expose
-        @SerializedName("img_url")
-        val coverImgUrl: String? = null
+        val id: Long? = null
 
         @Expose
         @SerializedName("created_at")
         val createdAt: String? = null
 
         @Expose
-        @SerializedName("description")
-        val description: String? = null
+        @SerializedName("updated_at")
+        val updatedAt: String? = null
+
+        @Expose
+        @SerializedName("custom_text")
+        val customText: String? = null
 
         override fun equals(other: Any?): Boolean {
 
@@ -82,7 +78,7 @@ class CustomObjectResponse {
         }
 
         override fun hashCode(): Int {
-            var result = customObjectUrl!!.hashCode()
+            var result = id.hashCode()
             result = 31 * result + id.hashCode()
             return result
         }

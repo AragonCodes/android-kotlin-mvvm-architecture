@@ -13,6 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
 
         // CONFIG RES VALUES
         resValue "string", "places_api_key", (project.findProperty("PLACES_API_KEY") ?: "")

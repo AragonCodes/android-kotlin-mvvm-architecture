@@ -47,13 +47,24 @@
                     android:layout_margin="20dp"
                     android:orientation="vertical">
 
+                    <!--<Button-->
+                            <!--android:id="@+id/bttCustomList"-->
+                            <!--style="@style/Button.Primary"-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:layout_gravity="center"-->
+                            <!--android:layout_margin="15dp"-->
+                            <!--android:padding="10dp"-->
+                            <!--android:text="@string/custom_list"-->
+                            <!--android:textSize="18dp" />-->
+
                     <Button
                         android:id="@+id/bttLogout"
                         style="@style/Button.Primary"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_margin="15dp"
+                        android:la  yout_margin="15dp"
                         android:padding="10dp"
                         android:text="@string/logout"
                         android:textSize="18dp" />

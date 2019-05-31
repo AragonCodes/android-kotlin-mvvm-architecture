@@ -1,1 +1,8 @@
-[]
+[
+  {"custom_text": "A"},
+  {"custom_text": "B"},
+  {"custom_text": "C"},
+  {"custom_text": "D"},
+  {"custom_text": "E"},
+  {"custom_text": "F"},
+]
